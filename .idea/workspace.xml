@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="30240021-a837-455a-88c4-4b2dd3f75f8e" name="Changes" comment="" />
+    <list default="true" id="30240021-a837-455a-88c4-4b2dd3f75f8e" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gtmoviesstore/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/gtmoviesstore/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/login/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/login/views.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -29,6 +33,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "django.template.preview.state": "SHOW_EDITOR_AND_PREVIEW",
+    "git-widget-placeholder": "master",
     "last_opened_file_path": "/Users/sameer/Documents/gt/CS/CS 3630/moviestore/cs2340-gt-movies-store",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -49,7 +54,6 @@
         <env name="DJANGO_SETTINGS_MODULE" value="gtmoviesstore.settings" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="SDK_NAME" value="Python 3.12 (DjangoProject)" />
       <option name="WORKING_DIRECTORY" value="" />
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
@@ -85,6 +89,7 @@
       <workItem from="1738791431690" duration="2764000" />
       <workItem from="1738799611501" duration="174000" />
       <workItem from="1738799794572" duration="877000" />
+      <workItem from="1738800674126" duration="114000" />
     </task>
     <servers />
   </component>
