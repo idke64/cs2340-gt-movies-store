@@ -6,8 +6,12 @@ class CustomErrorList(ErrorList):
         if not self:
             return ''
         return mark_safe(''.join([
+<<<<<<< HEAD
             f'<div class="alert alert-danger" role="alert">
             {e}</div>' for e in self]))
+=======
+            f'<div class="alert alert-danger" role="alert">{e}</div>' for e in self]))
+>>>>>>> 81323c8307e9938b336bdafd15e7d71f830a5bfd
 class CustomUserCreationForm(UserCreationForm):
     def __init__(self, *args, **kwargs):
         super(CustomUserCreationForm, self).__init__(*args, **kwargs)

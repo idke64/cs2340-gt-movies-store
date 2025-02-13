@@ -28,6 +28,7 @@ urlpatterns = [
     # py manage.py startapp xxxx
 
     path('login/', include("login.urls")),
+    path('accounts/', include("accounts.urls")),
     # path('sign-up/', ),
     # path('movies/', ),
     # path('dashboard/',),
