@@ -23,16 +23,9 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('', include('home.urls')),
     path('movies/', include('movies.urls')),
-    # Set these up as apps by running 
-    # py manage.py startapp xxxx
-
     path('login/', include("login.urls")),
     path('accounts/', include("accounts.urls")),
-    # path('sign-up/', ),
-    # path('movies/', ),
-    # path('dashboard/',),
-    # path('cart/',),
-    # path('reviews/',)
+    path('cart/', include('cart.urls')),
 
 ]
 urlpatterns += static(settings.MEDIA_URL,
