@@ -1,4 +1,4 @@
-from django.contrib.auth.forms import UserCreationForm
+from django.contrib.auth.forms import UserCreationForm, SetPasswordForm
 from django.forms.utils import ErrorList
 from django.utils.safestring import mark_safe
 class CustomErrorList(ErrorList):
@@ -16,3 +16,9 @@ class CustomUserCreationForm(UserCreationForm):
             self.fields[fieldname].widget.attrs.update(
                 {'class': 'form-control'}
             )
+class CustomSetPasswordForm(SetPasswordForm):
+    def __init__(self, *args, **kwargs):
+        super().__init__(*args, **kwargs)
+        # Remove help texts from both password fields.
+        self.fields["new_password1"].help_text = ""
+        self.fields["new_password2"].help_text = ""

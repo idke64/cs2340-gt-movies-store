@@ -138,3 +138,11 @@ STATICFILES_DIRS = [
 ]
 MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
 MEDIA_URL = '/media/'
+
+EMAIL_BACKEND = "django.core.mail.backends.smtp.EmailBackend"
+EMAIL_HOST = "smtp.resend.com"
+EMAIL_PORT = 587
+EMAIL_HOST_USER = "resend"
+EMAIL_HOST_PASSWORD = "re_dchD6j8t_PhCVCJRvWaJwxMmRtT8fbWVo"
+EMAIL_USE_TLS = True
+DEFAULT_FROM_EMAIL = "deliciousbrain42@gmail.com"
